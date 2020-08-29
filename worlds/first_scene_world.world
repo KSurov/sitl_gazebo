@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <world name="default">
+        <include>
+            <uri>model://sun</uri>
+        </include>
+        
+        <include>
+            <uri>model://ground_my</uri>
+        </include>
+        
+        <include>
+            <uri>model://house_test</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://platform</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <name>cube</name>
+            <uri>model://cube</uri>
+            <static>true</static>
+        </include>
+        
+        <include>
+            <name>cylinder1</name>
+            <uri>model://cylinder_0.5</uri>
+            <static>true</static>
+	    <pose>1 2 0 0 0 0</pose>
+        </include>
+
+        <include>
+            <name>cylinder2</name>
+            <uri>model://cylinder_0.75</uri>
+            <static>true</static>
+	    <pose>0.5 -4 0 0 0 0</pose>
+        </include>
+
+        <include>
+            <name>cylinder3</name>
+            <uri>model://cylinder_0.75</uri>
+            <static>true</static>
+	    <pose>-4.261650 0.517731 0 0 0 0</pose>
+        </include>
+
+        <include>
+            <name>cylinder4</name>
+            <uri>model://cylinder_1</uri>
+            <static>true</static>
+	    <pose>-8.369270 1.941560 0 0 0 0</pose>
+        </include>
+
+        <include>
+            <name>cylinder5</name>
+            <uri>model://cylinder_0.5</uri>
+            <static>true</static>
+	    <pose>-6.326930 -3.247220 0 0 0 0</pose>
+        </include>
+
+        <include>
+            <name>cylinder6</name>
+            <uri>model://cylinder_0.75</uri>
+            <static>true</static>
+	    <pose>6.353330 -0.994188 0 0 0 0</pose>
+        </include>
+
+        <include>
+            <name>cylinder7</name>
+            <uri>model://cylinder_0.75</uri>
+            <static>true</static>
+	    <pose>5.610560 -5.693910 0 0 0 0</pose>
+        </include>
+
+
+        <include>
+            <name>cylinder8</name>
+            <uri>model://cylinder_1</uri>
+            <static>true</static>
+	    <pose>-2.407050 -6.457540 0 0 0 0</pose>
+        </include>
+
+        <include>
+            <name>cylinder9</name>
+            <uri>model://cylinder_0.5</uri>
+            <static>true</static>
+	    <pose>11.592900 2.114720 0 0 0 0</pose>
+        </include>
+
+        <include>
+            <name>cylinder10</name>
+            <uri>model://cylinder_0.75</uri>
+            <static>true</static>
+	    <pose>13.594300 9.659100 0 0 0 0</pose>
+        </include>
+
+        <include>
+            <name>cylinder11</name>
+            <uri>model://cylinder_1</uri>
+            <static>true</static>
+	    <pose>12.917700 16.872900 0 0 0 0</pose>
+        </include>
+
+        <include>
+            <name>cylinder12</name>
+            <uri>model://cylinder_0.5</uri>
+            <static>true</static>
+	    <pose>-12.875100 5.961400 0 0 0 0</pose>
+        </include>
+
+        <include>
+            <name>cylinder13</name>
+            <uri>model://cylinder_0.75</uri>
+            <static>true</static>
+	    <pose>-14.646100 13.250200 0 0 0 0</pose>
+        </include>
+
+       <include>
+            <name>cylinder14</name>
+            <uri>model://cylinder_1</uri>
+            <static>true</static>
+	    <pose>-13.739100 20.430700 0 0 0 0</pose>
+        </include>
+
+       <include>
+            <name>cylinder15</name>
+            <uri>model://cylinder_0.75</uri>
+            <static>true</static>
+	    <pose>-8.459440 25.762800 0 0 0 0</pose>
+        </include>
+
+       <include>
+            <name>cylinder16</name>
+            <uri>model://cylinder_0.5</uri>
+            <static>true</static>
+	    <pose>-0.042245 26.367100 0 0 0 0</pose>
+        </include>
+
+       <include>
+            <name>cylinder17</name>
+            <uri>model://cylinder_0.5</uri>
+            <static>true</static>
+	    <pose>6.886590 25.292700 0 0 0 0</pose>
+        </include>
+
+       <include>
+            <name>cylinder18</name>
+            <uri>model://cylinder_0.75</uri>
+            <static>true</static>
+	    <pose>-13.456100 0.371370 0 0 0 0</pose>
+        </include>
+
+       <include>
+            <name>cylinder19</name>
+            <uri>model://cylinder_1</uri>
+            <static>true</static>
+	    <pose>-18.714200 8.157500 0 0 0 0</pose>
+        </include>
+
+       <include>
+            <name>cylinder20</name>
+            <uri>model://cylinder_1</uri>
+            <static>true</static>
+	    <pose>12.869900 22.464000 0 0 0 0</pose>
+        </include>
+
+
+      <physics name='default_physics' default='0' type='ode'>
+      <gravity>0 0 -9.8066</gravity>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>10</iters>
+          <sor>1.3</sor>
+          <use_dynamic_moi_rescaling>0</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <cfm>0</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>100</contact_max_correcting_vel>
+          <contact_surface_layer>0.001</contact_surface_layer>
+        </constraints>
+      </ode>
+      <max_step_size>0.004</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>250</real_time_update_rate>
+      <magnetic_field>6.0e-6 2.3e-5 -4.2e-5</magnetic_field>
+    </physics>
+        
+        
+     </world>   
+</sdf>

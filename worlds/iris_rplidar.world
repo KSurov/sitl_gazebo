@@ -9,6 +9,27 @@
     <include>
       <uri>model://ground_plane</uri>
     </include>
+    
+    <include>
+            <name>cube</name>
+            <uri>model://cube</uri>
+            <static>true</static>
+        </include>
+    
+    <include>
+            <uri>model://house_test</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+        
+        <include>
+            <uri>model://platform</uri>
+            <static>true</static>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+        
     <!-- An asphalt plane -->
     <include>
       <uri>model://asphalt_plane</uri>
