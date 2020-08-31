@@ -16,7 +16,7 @@
               <pose>-4 5.5 0.27 0 0 0</pose>
               <geometry>
               <mesh>
-                 <uri>model://qr_1/meshes/qr2.dae</uri>
+                 <uri>model://qr_1/meshes/qr1.dae</uri>
               </mesh>
               </geometry>
               
@@ -42,7 +42,7 @@
               <pose>4 5.5 0.27 0 0 0</pose>
               <geometry>
               <mesh>
-                 <uri>model://qr_1/meshes/qr4.dae</uri>
+                 <uri>model://qr_1/meshes/qr3.dae</uri>
               </mesh>
               </geometry>
               
@@ -68,7 +68,7 @@
               <pose>4 0.6 0.27 0 0 0</pose>
               <geometry>
               <mesh>
-                 <uri>model://qr_1/meshes/qr5.dae</uri>
+                 <uri>model://qr_1/meshes/qr4.dae</uri>
               </mesh>
               </geometry>
               
@@ -96,7 +96,7 @@
               <pose>0 -2 0.27 0 0 0</pose>
               <geometry>
               <mesh>
-                 <uri>model://qr_1/meshes/qr6.dae</uri>
+                 <uri>model://qr_1/meshes/qr5.dae</uri>
               </mesh>
               </geometry>
               
@@ -122,7 +122,7 @@
               <pose>-5.5 -5.2 0.27 0 0 0</pose>
               <geometry>
               <mesh>
-                 <uri>model://qr_1/meshes/qr15.dae</uri>
+                 <uri>model://qr_1/meshes/qr13.dae</uri>
               </mesh>
               </geometry>
               
@@ -148,7 +148,7 @@
               <pose>-1.5 -5.2 0.27 0 0 0</pose>
               <geometry>
               <mesh>
-                 <uri>model://qr_1/meshes/qr14.dae</uri>
+                 <uri>model://qr_1/meshes/qr11.dae</uri>
               </mesh>
               </geometry>
               
@@ -174,7 +174,7 @@
               <pose>2.2 -5.2 0.27 0 0 0</pose>
               <geometry>
               <mesh>
-                 <uri>model://qr_1/meshes/qr13.dae</uri>
+                 <uri>model://qr_1/meshes/qr9.dae</uri>
               </mesh>
               </geometry>
               
@@ -200,7 +200,7 @@
               <pose>5.6 -5.2 0.27 0 0 0</pose>
               <geometry>
               <mesh>
-                 <uri>model://qr_1/meshes/qr12.dae</uri>
+                 <uri>model://qr_1/meshes/qr8.dae</uri>
               </mesh>
               </geometry>
               

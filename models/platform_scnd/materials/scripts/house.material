@@ -7,7 +7,7 @@ material platformscndMat/Diffuse
    {
     texture_unit
     {
-     texture circle.png
+     texture 151413126542_245615141312_1311985431_circle.png
     }
    }
  
